@@ -1,0 +1,175 @@
+body {
+  font-family: "montserrat";
+  text-align: center;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "montserrat-black";
+}
+
+p {
+  color: #a6a6a6;
+  font-weight: var(1rem);
+}
+
+/* navigarion bar */
+
+.big-heading {
+  font-family: "montserrat-black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: white;
+}
+
+.container-fluid {
+  background-color: #ff4c68;
+  padding: 3% 15% 10% ;
+}
+
+.navbar {
+  padding: 0 0 3.5rem;
+}
+
+.navbar-brand {
+  font-family: "ubuntu";
+  font-size: 2rem;
+  font-weight: bold;
+  padding-bottom: 10px;
+  text-decoration: rgb(167, 167, 167);
+}
+
+.nav-items {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "montserrat";
+  font-weight: bold;
+  padding-right: var(10px);
+}
+
+/* download button */
+.download-button {
+  margin: 5% 3% 5% 0%;
+}
+
+/* title */
+#title {
+  background-color: #000000;
+  color: #fff;
+  text-align: left;
+}
+
+.title-img {
+  width: 20%;
+  transform: rotate(20deg);
+  position: absolute;
+  right: 28%;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-img {
+    position: static;
+    transform: rotate(0deg);
+  }
+}
+
+/* features */
+#features {
+  padding: 3%;
+  color: #000000;
+  background-color: white;
+  font-weight: normal;
+  font-family: "montserrat-bold";
+  margin: 0 100px;
+  position: relative;
+}
+
+.feature-text {
+  font-weight: bold;
+}
+
+.feature-box {
+  padding: 100px;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 10px;
+}
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* testimonials */
+#testimonials {
+  background-color: #ef8172;
+  padding: 5% 15%;
+  font-family: "montserrat";
+  color: white;
+}
+
+.testimonials-text {
+  font-size: 3rem;
+  font-weight: 100;
+}
+
+.testimonials-img {
+  margin-top: 35px;
+  width: 15%;
+  border-radius: 100%;
+}
+
+/* press */
+#press {
+  background-color: #ef8172;
+  padding: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 10px 20px 50px;
+}
+
+/* pricing */
+#pricing {
+  padding: 100px 100px;
+  background-color: rgb(252, 252, 252);
+}
+
+.pricing-text {
+  font-size: 3rem;
+  font-weight: 100;
+}
+
+.pricing-info-text {
+  font-weight: bold;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* call to action */
+#action {
+  background-color: #ef5068;
+  font-style: "montserrat";
+  font-weight: bold;
+  padding: 7% 16%;
+}
+
+#footer {
+  background-color: #fff;
+  padding: 8%;
+}
+
+.icon-icon {
+  margin: 15px 5px 15px 15px;
+  color: #000000;
+}
